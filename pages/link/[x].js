@@ -4,7 +4,7 @@ const Thing = () => {
     const router = useRouter()
     const { x } = router.query
 
-    router.push("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    return "<script>window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";</script>"
 }
 
 export default Thing;
